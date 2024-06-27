@@ -1,0 +1,77 @@
+.TimelineVerticalWrapper-sc-1427v1d-0 {
+  padding: 2rem !important;
+}
+
+.TimelineItemContentWrapper-sc-d7qjm1-0 {
+  height: auto !important;
+  padding: 1rem !important;
+}
+
+.iiIORr {
+  width: 100% !important;
+  padding: 8px !important;
+  margin: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.TimelineItemContentWrapper-sc-d7qjm1-0,
+.TriangleIconWrapper-sc-d7qjm1-11 {
+  background-color: transparent !important;
+  transition: all ease-in-out 0.3s;
+}
+
+.TimelineItemContentWrapper-sc-d7qjm1-0 h1 {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.TimelineItemContentWrapper-sc-d7qjm1-0 h2 {
+  font-size: 0.875rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.TimelineItemContentWrapper-sc-d7qjm1-0 p {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.TimelineItemContentWrapper-sc-d7qjm1-0:hover {
+  @apply bg-slate-400/20 !important;
+  cursor: pointer;
+}
+
+.TriangleIconWrapper-sc-d7qjm1-11 {
+  display: none;
+}
+
+.erdVAe::before {
+  background-color: #4dd0e1 !important;
+  width: 1px !important;
+}
+
+.erdVAe::after {
+  background-color: #4dd0e1 !important;
+  width: 1px !important;
+}
+
+.eczmnE:not(.using-icon).active {
+  background: #4b4b4b !important;
+  border: 2px solid #4dd0e1 !important;
+}
+
+.eczmnE:not(.using-icon) {
+  background-color: #4dd0e1 !important;
+}
+
+.TitleWrapper-sc-13izrht-0 {
+  color: #4dd0e1 !important;
+}
+
+.gJAGSz.active {
+  background-color: #4dd0e1 !important;
+  color: #242424 !important;
+}

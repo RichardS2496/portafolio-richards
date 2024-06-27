@@ -1,0 +1,19 @@
+nav .item {
+  @apply text-white transition-all font-medium cursor-pointer p-4;
+}
+
+nav .item:hover {
+  @apply text-sky-500;
+}
+
+nav {
+  animation: nav-transparence 1s linear both;
+  animation-timeline: scroll();
+  animation-range: 0 100px;
+}
+
+@keyframes nav-transparence {
+  to {
+    @apply shadow-lg ring-1 backdrop-blur dark:bg-gray-800/90 bg-white/30 ring-white/10;
+  }
+}

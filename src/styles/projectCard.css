@@ -1,0 +1,3 @@
+.project-card:hover {
+  @apply p-4 bg-slate-400/20 cursor-pointer rounded-lg;
+}
