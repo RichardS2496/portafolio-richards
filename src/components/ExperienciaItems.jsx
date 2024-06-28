@@ -4,7 +4,7 @@ import "../styles/experiencia.css";
 export function ExperienciaItems() {
   const items = [
     {
-      position: "WordPress Developer",
+      position: "Front-end Developer",
       company: "Spazio Digital",
       date: "Feb 2024 - Actualmente",
       jobDescription:

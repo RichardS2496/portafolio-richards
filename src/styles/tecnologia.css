@@ -1,0 +1,11 @@
+.tecno-content {
+    margin: 4rem 0;
+}
+
+.logo-container svg{
+    @apply p-2 rounded-lg
+}
+
+.logo-container svg:hover{
+@apply bg-neutral-400/50 p-2 rounded-lg
+}
