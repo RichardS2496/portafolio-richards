@@ -3,9 +3,9 @@
 }
 
 .logo-container svg{
-    @apply p-2 rounded-lg
+    @apply p-2 rounded-lg transition-all duration-300 ease-in-out
 }
 
 .logo-container svg:hover{
-@apply bg-neutral-400/50 p-2 rounded-lg
+@apply bg-neutral-400/50 p-2 rounded-lg 
 }

@@ -35,7 +35,7 @@ export function ExperienciaItems() {
             cardSubtitle: item.date,
             cardDetailedText: item.jobDescription,
           }))}
-          mode="VERTICAL_ALTERNATING"
+          mode="VERTICAL"
           hideControls={true}
           disableToolbar
         />
