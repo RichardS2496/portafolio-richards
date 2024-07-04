@@ -28,10 +28,18 @@ export function PersonalInfo() {
               Descargar CV
             </a>
             <a href="https://www.linkedin.com/in/richards24/" target="_blank">
-              <img className="svg-details" src="src\assets\linkedin.svg" />
+              <img
+                className="svg-details"
+                src="./assets/linkedin.svg"
+                alt="linkedin logo"
+              />
             </a>
             <a href="https://github.com/RichardS2496" target="_blank">
-              <img className="svg-details" src="src\assets\github.svg" />
+              <img
+                className="svg-details"
+                src="/assets/github.svg"
+                alt="github logo"
+              />
             </a>
           </div>
         </div>
