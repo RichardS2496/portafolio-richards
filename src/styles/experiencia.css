@@ -88,3 +88,20 @@
   background-color: #4dd0e1 !important;
   color: #242424 !important;
 }
+
+.dKXBCi:not(.using-icon).active {
+  background-color: #4b4b4b !important;
+  border: 1px solid #4dd0e1 !important;
+}
+
+.jWQEaP::before {
+  background-color: #4dd0e1 !important;
+}
+
+.jWQEaP::after {
+  background-color: #4dd0e1 !important;
+}
+
+.fbaSQc {
+  width: 30% !important;
+}
