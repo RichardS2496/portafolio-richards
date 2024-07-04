@@ -55,7 +55,7 @@ export function About() {
         <div className="w-1/3 relative">
           <img
             className="rounded-lg w-full"
-            src="src\assets\profile-pic.jpg"
+            src="../assets/profile-pic.jpg"
             alt="Richard Suarez - Frontend Developer"
           />
           <a
@@ -64,7 +64,7 @@ export function About() {
           >
             <img
               className="w-[30%] absolute bottom-0 right-0 mr-[-2rem] mb-8 transition-all hover:scale-110"
-              src="src\assets\meta-front-end-developer-certificate.png"
+              src="../meta-front-end-developer-certificate.png"
               alt="Badge from Meta about Front-end Certificate"
             />
           </a>
