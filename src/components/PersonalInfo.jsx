@@ -1,11 +1,13 @@
 import "../styles/personalInfo.css";
+import profilePic from "../assets/profile-pic.jpg";
+import cvPDF from "../assets/Richard_Suarez_CV_Developer.pdf";
 
 export function PersonalInfo() {
   return (
     <>
       <section className="flex flex-row gap-8 mt-12">
         <div>
-          <img className="img-profile" src="src\assets\profile-pic.jpg" />
+          <img className="img-profile" src={profilePic} />
         </div>
         <div className="flex flex-col gap-4 ">
           <h2 className="text-5xl font-bold">Richard Suarez</h2>
@@ -20,24 +22,20 @@ export function PersonalInfo() {
             para agencias de marketing y proyectos freelance.
           </p>
           <div className="flex flex-row gap-4">
-            <a
-              className="standard-btn"
-              target="_blank"
-              href="src\assets\Richard Suarez CV - Developer.pdf"
-            >
+            <a className="standard-btn" target="_blank" href={cvPDF}>
               Descargar CV
             </a>
             <a href="https://www.linkedin.com/in/richards24/" target="_blank">
               <img
                 className="svg-details"
-                src="./assets/linkedin.svg"
+                src="/assets/linkedin.svg"
                 alt="linkedin logo"
               />
             </a>
             <a href="https://github.com/RichardS2496" target="_blank">
               <img
                 className="svg-details"
-                src="https://portafoliors.netlify.app/assets/github.svg"
+                src="/assets/github.svg"
                 alt="github logo"
               />
             </a>
