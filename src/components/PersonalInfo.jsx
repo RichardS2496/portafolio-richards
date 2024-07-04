@@ -33,14 +33,14 @@ export function PersonalInfo() {
             <a href="https://www.linkedin.com/in/richards24/" target="_blank">
               <img
                 className="svg-details"
-                src="/assets/linkedin.svg"
+                src="http://runmydev.com/wp-content/uploads/2024/07/linkedin.svg"
                 alt="linkedin logo"
               />
             </a>
             <a href="https://github.com/RichardS2496" target="_blank">
               <img
                 className="svg-details"
-                src="/assets/github.svg"
+                src="http://runmydev.com/wp-content/uploads/2024/07/github.svg"
                 alt="github logo"
               />
             </a>

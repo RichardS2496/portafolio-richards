@@ -5,7 +5,7 @@ const certificates = [
     company: "Coursera",
     url: "https://www.coursera.org/account/accomplishments/verify/BXJAQFDNABUM",
     id: "BXJAQFDNABUM",
-    img: "src/assets/coursera.jpg",
+    img: "http://runmydev.com/wp-content/uploads/2024/07/coursera.jpg",
   },
   {
     title: "Diseños y Prototipos de Alta Fidelidad en Figma",
@@ -13,7 +13,7 @@ const certificates = [
     company: "Coursera",
     url: "https://www.coursera.org/account/accomplishments/verify/2G58DFMKRX6E",
     id: "2G58DFMKRX6E",
-    img: "src/assets/coursera.jpg",
+    img: "http://runmydev.com/wp-content/uploads/2024/07/coursera.jpg",
   },
   {
     title: "Diseño Web Profesional",
@@ -21,7 +21,7 @@ const certificates = [
     company: "Udemy",
     url: "https://www.udemy.com/certificate/UC-21e0b865-f910-431e-8d5e-320d9d40a03d/",
     id: "UC-21e0b865-f910-431e-8d5e-320d9d40a03d",
-    img: "src/assets/udemy.jpg",
+    img: "http://runmydev.com/wp-content/uploads/2024/07/udemy.jpg",
   },
   {
     title: "Meta Front-End Developer",
@@ -29,7 +29,7 @@ const certificates = [
     company: "Coursera",
     url: "https://www.coursera.org/account/accomplishments/specialization/certificate/JVQNNFNHRBAT",
     id: "JVQNNFNHRBAT",
-    img: "src/assets/coursera.jpg",
+    img: "http://runmydev.com/wp-content/uploads/2024/07/coursera.jpg",
   },
   {
     title: "Programación Web con PHP",
@@ -37,7 +37,7 @@ const certificates = [
     company: "Eductrade",
     url: "https://drive.google.com/file/d/1br21U5TnUZxdQFtV-gTWc97rz9QUELoe/view?usp=sharing",
     id: "IFCD044PO",
-    img: "src/assets/eductrade.jpg",
+    img: "http://runmydev.com/wp-content/uploads/2024/07/eductrade.jpg",
   },
   {
     title: "FullStack Developer",
@@ -45,7 +45,7 @@ const certificates = [
     company: "Develhope",
     url: "#",
     id: "564654654",
-    img: "src/assets/develhope.jpg",
+    img: "http://runmydev.com/wp-content/uploads/2024/07/develhope.jpg",
   },
 ];
 

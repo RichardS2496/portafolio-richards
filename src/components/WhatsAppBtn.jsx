@@ -6,7 +6,7 @@ export function WhatsAppBtn() {
     >
       <img
         className="w-20"
-        src="src\assets\projects-assets\WhatsApp-img.png"
+        src="http://runmydev.com/wp-content/uploads/2024/07/WhatsApp-img.png"
         alt="número de contacto de WhatsApp de Richard Suarez"
       />
     </a>
