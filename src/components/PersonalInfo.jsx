@@ -1,13 +1,14 @@
 import "../styles/personalInfo.css";
-import profilePic from "../assets/profile-pic.jpg";
-import cvPDF from "../assets/Richard_Suarez_CV_Developer.pdf";
 
 export function PersonalInfo() {
   return (
     <>
       <section className="flex flex-row gap-8 mt-12">
         <div>
-          <img className="img-profile" src={profilePic} />
+          <img
+            className="img-profile"
+            src="http://runmydev.com/wp-content/uploads/2024/07/profile-pic.jpg"
+          />
         </div>
         <div className="flex flex-col gap-4 ">
           <h2 className="text-5xl font-bold">Richard Suarez</h2>
