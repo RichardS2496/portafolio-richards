@@ -37,7 +37,7 @@ export function PersonalInfo() {
             <a href="https://github.com/RichardS2496" target="_blank">
               <img
                 className="svg-details"
-                src="/assets/github.svg"
+                src="https://portafoliors.netlify.app/assets/github.svg"
                 alt="github logo"
               />
             </a>
