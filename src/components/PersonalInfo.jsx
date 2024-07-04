@@ -23,7 +23,11 @@ export function PersonalInfo() {
             para agencias de marketing y proyectos freelance.
           </p>
           <div className="flex flex-row gap-4">
-            <a className="standard-btn" target="_blank" href={cvPDF}>
+            <a
+              className="standard-btn"
+              target="_blank"
+              href="http://runmydev.com/wp-content/uploads/2024/07/Richard-Suarez-CV-Developer.pdf"
+            >
               Descargar CV
             </a>
             <a href="https://www.linkedin.com/in/richards24/" target="_blank">
