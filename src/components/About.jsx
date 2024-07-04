@@ -55,7 +55,7 @@ export function About() {
         <div className="w-1/3 relative">
           <img
             className="rounded-lg w-full"
-            src="../assets/profile-pic.jpg"
+            src="/assets/profile-pic.jpg"
             alt="Richard Suarez - Frontend Developer"
           />
           <a
