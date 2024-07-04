@@ -10,16 +10,18 @@ export function Header() {
         <a href="#experiencia" className="item">
           Experiencia
         </a>
-        <a href="#tecnologias" className="item">
-          Tecnologías
-        </a>
-        <a href="#educación" className="item">
+        <a href="#educacion-y-formacion" className="item">
           Educación
         </a>
         <a href="#sobre-mi" className="item">
           Sobre Mi
         </a>
-        <a className="item">Contacto</a>
+        <a href="#tecnologias" className="item">
+          Tecnologías
+        </a>
+        <a href="#contacto" className="item">
+          Contacto
+        </a>
       </nav>
     </>
   );

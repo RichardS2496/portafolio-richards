@@ -19,5 +19,9 @@
 }
 
 .title-info-card {
-  @apply flex flex-row gap-4 cursor-pointer p-4 bg-slate-700 rounded-lg transition-all hover:bg-slate-500;
+  @apply flex flex-row gap-4 cursor-pointer p-4 bg-slate-700 rounded-lg transition-all;
+}
+
+.title-info-card:hover {
+  @apply shadow-lg ring-1 backdrop-blur dark:bg-gray-800/90 bg-white/30 ring-white/10;
 }

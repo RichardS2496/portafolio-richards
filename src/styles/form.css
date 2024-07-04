@@ -1,0 +1,12 @@
+.input-detail {
+  @apply flex flex-col gap-1;
+}
+
+.input-detail input,
+textarea {
+  @apply rounded-lg bg-neutral-400 p-2 text-lg text-gray-950 outline-none;
+}
+
+.input-detail textarea {
+  @apply p-2 text-lg text-gray-950;
+}

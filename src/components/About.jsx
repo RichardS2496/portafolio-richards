@@ -70,7 +70,7 @@ export function About() {
           </a>
         </div>
       </div>
-      <div className="more-info-section flex flex-row gap-6">
+      <div id="tecnologias" className="more-info-section flex flex-row gap-6">
         <div className="info-container">
           <div
             className="title-info-card"

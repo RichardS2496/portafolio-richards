@@ -6,6 +6,9 @@ import { Experiencia } from "./components/Experiencia";
 import { Tecnologias } from "./components/Tecnologias";
 import { About } from "./components/About";
 import { Education } from "./components/Education";
+import { Contact } from "./components/Contact";
+import { WhatsAppBtn } from "./components/WhatsAppBtn";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -15,8 +18,11 @@ function App() {
       <Proyectos />
       <Experiencia />
       <Education />
-      <Tecnologias />
       <About />
+      <Tecnologias />
+      <Contact />
+      <WhatsAppBtn />
+      <Footer />
     </>
   );
 }
