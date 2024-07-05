@@ -53,12 +53,6 @@ export function About() {
           </p>
         </div>
         <div className="w-1/3 relative">
-          <img
-            className="rounded-lg w-full"
-            src="http://runmydev.com/wp-content/uploads/2024/07/profile-pic.jpg"
-            alt="Richard Suarez - Frontend Developer"
-          />
-
           <div className="badge-container">
             <a
               className="w-[38%] flex justify-end"
