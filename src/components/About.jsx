@@ -58,16 +58,31 @@ export function About() {
             src="http://runmydev.com/wp-content/uploads/2024/07/profile-pic.jpg"
             alt="Richard Suarez - Frontend Developer"
           />
-          <a
-            target="_blank"
-            href="https://www.credly.com/badges/212dab1d-d356-438e-aad2-07b466ce0f38/public_url"
-          >
-            <img
-              className="w-[30%] absolute bottom-0 right-0 mr-[-2rem] mb-8 transition-all hover:scale-110"
-              src="http://runmydev.com/wp-content/uploads/2024/07/meta-front-end-developer-certificate.png"
-              alt="Badge from Meta about Front-end Certificate"
-            />
-          </a>
+
+          <div className="badge-container">
+            <a
+              className="w-[38%] flex justify-end"
+              target="_blank"
+              href="https://www.credential.net/ccdbc620-a9e7-4262-98e4-e0ec636b4edd#gs.b7jsca"
+            >
+              <img
+                className="w-full  transition-all hover:scale-110"
+                src="http://runmydev.com/wp-content/uploads/2024/07/95e707b6-913a-4ea5-b53b-d0d7964777d5.png"
+                alt="Badge from Meta about Front-end Certificate"
+              />
+            </a>
+            <a
+              className="w-[26%]"
+              target="_blank"
+              href="https://www.credly.com/badges/212dab1d-d356-438e-aad2-07b466ce0f38/public_url"
+            >
+              <img
+                className="w-full transition-all hover:scale-110"
+                src="http://runmydev.com/wp-content/uploads/2024/07/meta-front-end-developer-certificate.png"
+                alt="Badge from Meta about Front-end Certificate"
+              />
+            </a>
+          </div>
         </div>
       </div>
       <div id="tecnologias" className="more-info-section flex flex-row gap-6">
