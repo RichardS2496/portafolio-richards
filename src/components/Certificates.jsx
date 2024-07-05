@@ -43,8 +43,8 @@ const certificates = [
     title: "FullStack Developer",
     date: "Jul 04, 2024",
     company: "Develhope",
-    url: "#",
-    id: "564654654",
+    url: "https://www.credential.net/ccdbc620-a9e7-4262-98e4-e0ec636b4edd#gs.b6x5np",
+    id: "108078509",
     img: "http://runmydev.com/wp-content/uploads/2024/07/develhope.jpg",
   },
 ];
