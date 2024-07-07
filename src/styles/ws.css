@@ -1,0 +1,8 @@
+@media (max-width: 640px) {
+  .ws-btn {
+    @apply bottom-8 right-4;
+  }
+  .ws-btn img {
+    @apply w-16;
+  }
+}

@@ -12,8 +12,8 @@ export function About() {
         Sobre mi
       </h2>
 
-      <div className="flex flex-row gap-16  pt-16 pb-16">
-        <div className="about-text w-2/3 order-2">
+      <div className="main-info-container flex lg:flex-row lg:gap-16 pt-16 pb-16">
+        <div className="about-text lg:w-2/3 order-2">
           <p>
             ¡Hola!
             <span>
@@ -52,7 +52,7 @@ export function About() {
             seguir creciendo en este campo.
           </p>
         </div>
-        <div className="w-1/3 relative">
+        <div className="img-about-container lg:w-1/3 relative">
           <img
             className="rounded-lg w-full"
             src="http://runmydev.com/wp-content/uploads/2024/07/profile-pic.jpg"
@@ -85,8 +85,11 @@ export function About() {
           </div>
         </div>
       </div>
-      <div id="tecnologias" className="more-info-section flex flex-row gap-6">
-        <div className="info-container">
+      <div
+        id="tecnologias"
+        className="more-info-section flex lg:flex-row gap-6 w-full"
+      >
+        <div className="info-container ">
           <div
             className="title-info-card"
             onClick={() => {

@@ -1,0 +1,8 @@
+@media (max-width: 640px) {
+  .certificates-container {
+    @apply grid-cols-2 gap-0;
+  }
+  .eduCard-title {
+    @apply text-base;
+  }
+}

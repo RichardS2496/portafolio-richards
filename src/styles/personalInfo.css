@@ -17,3 +17,27 @@
 .svg-details path:hover {
   @apply fill-sky-500;
 }
+
+@media (max-width: 640px) {
+  .test-container {
+    @apply flex-col justify-center items-center;
+  }
+  .test-container div h2,
+  h3,
+  p {
+    @apply m-0 p-0 text-center;
+  }
+  .test-container div h2 {
+    @apply text-4xl;
+  }
+  .test-container div h3 {
+    @apply text-xl;
+  }
+  .test-container div p {
+    @apply text-lg;
+  }
+
+  .link-container {
+    @apply justify-center content-center;
+  }
+}

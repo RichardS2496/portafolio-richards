@@ -1,7 +1,9 @@
+import "../styles/ws.css";
+
 export function WhatsAppBtn() {
   return (
     <a
-      className="fixed bottom-8 right-8 transition-all hover:scale-110 "
+      className="ws-btn fixed z-50 lg:bottom-8 lg:right-8 transition-all hover:scale-110 "
       href="https://wa.me/+34643498478"
     >
       <img

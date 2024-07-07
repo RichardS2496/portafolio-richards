@@ -10,3 +10,18 @@ textarea {
 .input-detail textarea {
   @apply p-2 text-lg text-gray-950;
 }
+
+@media (max-width: 640px) {
+  .contact-container {
+    @apply p-8 flex flex-col;
+  }
+  form {
+    @apply w-full;
+  }
+  .form-little-section {
+    @apply flex-col;
+  }
+  .form-little-section .input-detail {
+    @apply w-full;
+  }
+}

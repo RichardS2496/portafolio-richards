@@ -5,11 +5,11 @@ export function Tecnologias() {
     <section className=" pb-6">
       {/*     <hr className="border-cyan-300/75  mb-4"></hr>
        */}
-      <div className="tecno-content flex flex-row justify-between items-center ">
+      <div className="tecno-content flex lg:flex-row justify-between lg:items-center ">
         <div>
           <h2 className="text-4xl font-bold text-neutral-400  ">Tecnologías</h2>
         </div>
-        <div className="logo-container grid grid-cols-7 gap-2">
+        <div className="logo-container grid lg:grid-cols-7 gap-2">
           <svg
             width="72"
             height="72"

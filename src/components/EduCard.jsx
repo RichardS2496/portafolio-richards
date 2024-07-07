@@ -1,3 +1,5 @@
+import "../styles/education.css";
+
 export function EduCard({ certificate }) {
   return (
     <a
@@ -7,12 +9,14 @@ export function EduCard({ certificate }) {
     >
       <div className="overflow-hidden rounded-lg">
         <img
-          className="rounded-lg transition-all hover:scale-110"
+          className="rounded-lg transition-all hover:scale-110 w-full"
           src={certificate.img}
           alt={certificate.img}
         />
       </div>
-      <h2 className="font-semibold text-xl">{certificate.title}</h2>
+      <h2 className="eduCard-title font-semibold text-xl">
+        {certificate.title}
+      </h2>
       <h4>{certificate.company}</h4>
     </a>
   );

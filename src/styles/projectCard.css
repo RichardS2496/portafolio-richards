@@ -1,3 +1,12 @@
+@media (max-width: 640px) {
+  .project-card {
+    @apply flex flex-col;
+  }
+  .project-content {
+    @apply w-full;
+  }
+}
+
 .project-card:hover {
   @apply p-4 bg-slate-400/20 cursor-pointer rounded-lg;
 }

@@ -109,3 +109,16 @@
 .dKXBCi:not(.using-icon) {
   background-color: #4dd0e1 !important;
 }
+
+@media (max-width: 640px) {
+  .prJHE {
+    display: none;
+  }
+  .TimelineItemContentWrapper-sc-d7qjm1-0 h1 {
+    font-size: 1.15rem !important;
+  }
+  .TimelineItemContentWrapper-sc-d7qjm1-0 p {
+    font-size: 0.85rem !important;
+    text-align: start;
+  }
+}

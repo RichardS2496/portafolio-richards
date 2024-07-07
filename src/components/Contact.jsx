@@ -39,9 +39,9 @@ export function Contact() {
   return (
     <section
       id="contacto"
-      className="flex flex-row w-full bg-slate-700 rounded-lg mb-3 p-16 gap-8"
+      className="contact-container flex lg:flex-row w-full bg-slate-700 rounded-lg mb-3 lg:p-16 gap-8"
     >
-      <div className="w-1/2 flex flex-col gap-12">
+      <div className="lg:w-1/2 flex flex-col gap-12 sm:w-full">
         <h2 className="text-4xl font-bold text-neutral-400 ">Contacto</h2>
         <div className="flex flex-col gap-6">
           <div className="flex flex-col gap-2">
@@ -50,7 +50,7 @@ export function Contact() {
             </h6>
             <a
               className="text-xl pl-9 flex flex-col gap-4"
-              href="tel+34643498478"
+              href="tel:+34643498478"
             >
               +34 643 498 478
             </a>
@@ -71,11 +71,17 @@ export function Contact() {
             <h6 className="text-lg flex flex-row gap-4 items-center">
               <LocationSVG /> Ubicación
             </h6>
-            <p className="text-xl pl-9 ">Ciudad Real, España</p>
+            <a
+              target="_blank"
+              className="text-xl pl-9 flex flex-col gap-4"
+              href="https://www.google.com/maps/place/Ciudad+Real/@38.9861032,-3.9681878,13z/data=!3m1!4b1!4m6!3m5!1s0xd6bdcb33d97174d:0xefaf23e8b1e79c2b!8m2!3d38.9848295!4d-3.9273778!16zL20vMDFyeHhn?entry=ttu"
+            >
+              Ciudad Real, España
+            </a>
           </div>
         </div>
       </div>
-      <div className="w-1/2 ">
+      <div className="lg:w-1/2 sm:w-full">
         <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
           <div className="input-detail">
             <label htmlFor="name">Nombre</label>
@@ -88,7 +94,7 @@ export function Contact() {
               required
             />
           </div>
-          <div className="flex flex-row gap-4">
+          <div className="form-little-section flex lg:flex-row gap-4">
             <div className="input-detail w-1/2">
               <label htmlFor="email">Correo Electrónico</label>
               <input
