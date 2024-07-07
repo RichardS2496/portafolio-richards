@@ -24,6 +24,9 @@ export function PersonalInfo() {
           </p>
           <div className="link-container flex flex-row gap-4  ">
             <a
+              download={
+                "http://runmydev.com/wp-content/uploads/2024/07/Richard-Suarez-CV-Developer.pdf"
+              }
               className="standard-btn"
               target="_blank"
               href="http://runmydev.com/wp-content/uploads/2024/07/Richard-Suarez-CV-Developer.pdf"
