@@ -17,3 +17,12 @@ nav {
     @apply shadow-lg ring-1 backdrop-blur dark:bg-gray-800/90 bg-white/30 ring-white/10;
   }
 }
+
+@media (max-width: 640px) {
+  nav {
+    display: none;
+  }
+  .header-container {
+    justify-content: end;
+  }
+}
