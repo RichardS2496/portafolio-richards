@@ -32,6 +32,6 @@ nav .item:hover {
   }
 
   .mobile-header {
-    @apply absolute top-0 right-0 h-screen justify-start bg-slate-700 flex-col gap-2 pt-16 pb-6 pr-8 text-end text-2xl rounded-lg z-10;
+    @apply absolute top-0 right-0 h-auto justify-start bg-slate-700 flex-col gap-1 pt-14 pb-8 pr-8 text-end text-2xl rounded-lg z-10;
   }
 }

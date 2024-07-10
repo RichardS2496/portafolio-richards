@@ -9,6 +9,10 @@ export function Header() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  function closeNav() {
+    setIsMenuOpen(!isMenuOpen);
+  }
+
   useEffect(() => {
     if (isMenuOpen) {
       document.body.classList.add("overflow-hidden");
@@ -44,22 +48,22 @@ export function Header() {
           isMenuOpen ? "block" : "hidden"
         }`}
       >
-        <a href="#projectos" className="item">
+        <a onClick={closeNav} href="#projectos" className="item">
           Proyectos
         </a>
-        <a href="#experiencia" className="item">
+        <a onClick={closeNav} href="#experiencia" className="item">
           Experiencia
         </a>
-        <a href="#educacion-y-formacion" className="item">
+        <a onClick={closeNav} href="#educacion-y-formacion" className="item">
           Educación
         </a>
-        <a href="#sobre-mi" className="item">
+        <a onClick={closeNav} href="#sobre-mi" className="item">
           Sobre Mi
         </a>
-        <a href="#tecnologias" className="item">
+        <a onClick={closeNav} href="#tecnologias" className="item">
           Tecnologías
         </a>
-        <a href="#contacto" className="item">
+        <a onClick={closeNav} href="#contacto" className="item">
           Contacto
         </a>
       </nav>
