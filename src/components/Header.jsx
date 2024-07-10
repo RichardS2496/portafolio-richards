@@ -67,7 +67,7 @@ export function Header() {
           Contacto
         </a>
       </nav>
-      <Burguer toggleMenu={toggleMenu} />
+      <Burguer toggleMenu={toggleMenu} isMenuOpen={isMenuOpen} />
     </div>
   );
 }
