@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import "../styles/form.css";
 import { EmailSVG } from "./EmailSVG";
 import { PhoneSVG } from "./PhoneSVG";
 import { LocationSVG } from "./LocationSVG";
+import emailjs from "@emailjs/browser";
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -12,29 +13,32 @@ export function Contact() {
     message: "",
   });
 
+  const form = useRef();
+
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:5173/", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        alert("Mensaje Enviado");
-        console.log(data, "Mensaje Enviado");
-      })
-      .catch((error) => {
-        console.error("error:", error);
-        alert("Hubo un error");
-      });
+    emailjs
+      .sendForm(
+        "service_bchfsgw",
+        "template_69ayegh",
+        form.current,
+        "-00o6pWi76qkPv8_A"
+      )
+      .then(
+        (result) => {
+          console.log("SUCCESS!", result.text);
+          alert("Mensaje enviado correctamente");
+          setFormData({ name: "", email: "", phone: "", message: "" });
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+          alert("Error al enviar el mensaje. Inténtalo de nuevo.");
+        }
+      );
   };
 
   return (
@@ -74,6 +78,7 @@ export function Contact() {
             </h6>
             <a
               target="_blank"
+              rel="noopener noreferrer"
               className="text-xl pl-9 flex flex-col gap-4"
               href="https://www.google.com/maps/place/Ciudad+Real/@38.9861032,-3.9681878,13z/data=!3m1!4b1!4m6!3m5!1s0xd6bdcb33d97174d:0xefaf23e8b1e79c2b!8m2!3d38.9848295!4d-3.9273778!16zL20vMDFyeHhn?entry=ttu"
             >
@@ -83,7 +88,11 @@ export function Contact() {
         </div>
       </div>
       <div className="lg:w-1/2 sm:w-full">
-        <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
+        <form
+          ref={form}
+          className="flex flex-col gap-4"
+          onSubmit={handleSubmit}
+        >
           <div className="input-detail">
             <label htmlFor="name">Nombre</label>
             <input
@@ -99,7 +108,7 @@ export function Contact() {
             <div className="input-detail w-1/2">
               <label htmlFor="email">Correo Electrónico</label>
               <input
-                type="text"
+                type="email"
                 id="email"
                 name="email"
                 value={formData.email}
@@ -119,7 +128,6 @@ export function Contact() {
               />
             </div>
           </div>
-
           <div className="input-detail">
             <label htmlFor="message">Mensaje</label>
             <textarea
