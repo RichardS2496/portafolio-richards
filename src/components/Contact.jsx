@@ -29,6 +29,7 @@ export function Contact() {
       .then((res) => res.json())
       .then((data) => {
         alert("Mensaje Enviado");
+        console.log(data, "Mensaje Enviado");
       })
       .catch((error) => {
         console.error("error:", error);
