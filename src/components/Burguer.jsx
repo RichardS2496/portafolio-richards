@@ -2,7 +2,7 @@ import "../styles/header.css";
 
 export function Burguer() {
   return (
-    <button className="btn-burguer flex self-end lg:hidden sticky h-auto top-2 z-20">
+    <button className="btn-burguer flex self-end lg:hidden sticky h-auto top-2 z-20 shadow-lg ring-1 backdrop-blur dark:bg-gray-800/90 bg-white/30 ring-white/10">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         id="Outline"
