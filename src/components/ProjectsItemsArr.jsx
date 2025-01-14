@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "Next MCU Releases",
+    image:
+      "https://runmydev.com/wp-content/uploads/2025/01/NextMCUReleases.jpg",
+    description:
+      "Este es un sitio web desarrollado con PHP, donde se practica el consumo de APIs por medio del cURL",
+    url: "https://nextmcureleases.runmydev.com/",
+  },
+  {
     title: "TheShop - Ecommerce",
     image: "https://runmydev.com/wp-content/uploads/2024/08/theShop.jpg",
     description:

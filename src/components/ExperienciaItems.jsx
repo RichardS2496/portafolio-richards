@@ -4,9 +4,16 @@ import "../styles/experiencia.css";
 export function ExperienciaItems() {
   const items = [
     {
+      position: "Agente de Soporte y Desarrollo",
+      company: "aTurnos",
+      date: "Oct 2024 - Actualmente",
+      jobDescription:
+        "Soporte técnico a clientes, desarrollo de nuevas funcionalidades en la plataforma, mantenimiento de la plataforma y desarrollo de nuevas herramientas para el equipo de soporte.",
+    },
+    {
       position: "Front-end Developer",
       company: "Spazio Digital",
-      date: "Feb 2024 - Actualmente",
+      date: "Feb 2024 - Jul 2024",
       jobDescription:
         "Diseño y desarrollo de páginas web con CMS WordPress y otras tecnologías como JavaScript y React",
     },
